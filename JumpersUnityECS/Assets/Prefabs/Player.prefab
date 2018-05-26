@@ -25,10 +25,10 @@ GameObject:
   - component: {fileID: 114148499481694996}
   - component: {fileID: 114991114145249668}
   - component: {fileID: 114882234878140362}
+  - component: {fileID: 114816301364192048}
   - component: {fileID: 114759965285334410}
   - component: {fileID: 114382506233261772}
   - component: {fileID: 114210546245466752}
-  - component: {fileID: 114816301364192048}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -179,8 +179,8 @@ MonoBehaviour:
   BulletSpawns:
   - {fileID: 4808288406894230}
   - {fileID: 4609169051313712}
-  charge: 0.7
-  chargeTime: 0.7
+  charge: 0.3
+  chargeTime: 0.3
 --- !u!114 &114382506233261772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec8d07b0b3e46ea87e49d5de672d7a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shoot: 0
+  Fire: 0
 --- !u!114 &114882234878140362
 MonoBehaviour:
   m_ObjectHideFlags: 1

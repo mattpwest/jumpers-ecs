@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: LaserConfig
   m_EditorClassIdentifier: 
   MoveSpeedX: 0
-  MoveSpeedY: 10
+  MoveSpeedY: 25

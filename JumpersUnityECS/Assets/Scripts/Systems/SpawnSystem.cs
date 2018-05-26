@@ -9,7 +9,7 @@ namespace Systems
     [UpdateAfter(typeof(DamageSystem))]
     public class SpawnSystem : ComponentSystem
     {
-        public int NUM_ENEMIES = 10;
+        public int NUM_ENEMIES = 100;
         
         struct PlayerSpawns
         {
