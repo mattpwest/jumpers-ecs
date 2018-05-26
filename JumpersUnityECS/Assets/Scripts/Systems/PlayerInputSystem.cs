@@ -13,6 +13,7 @@ namespace Systems
 		{
 			public Player Player;
 			public MovementInput MovementInput;
+			public ShootInput ShootInput;
 		}
 
 		protected override void OnUpdate()
@@ -25,6 +26,7 @@ namespace Systems
 			{
 				entity.MovementInput.X = x;
 				entity.MovementInput.Y = y;
+				entity.ShootInput.Fire = input.GetButton("Fire");
 			}
 		}
 	}
