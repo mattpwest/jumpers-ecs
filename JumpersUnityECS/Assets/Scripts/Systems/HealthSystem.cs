@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using Components;
+﻿using Components;
 using Unity.Entities;
-using UnityEngine;
 
 namespace Systems
 {
@@ -20,11 +18,11 @@ namespace Systems
 
         protected override void OnUpdate()
         {
-            for(int i = 0; i < this.@group.Length; i++)
+            for(int i = 0; i < this.group.Length; i++)
             {
-                if(this.@group.Health[i].HitPoints <= 0)
+                if(this.group.Health[i].HitPoints <= 0)
                 {
-                    this.EntityManager.AddComponentData(this.@group.Entities[i], new Destroy());
+                    this.EntityManager.AddComponentData(this.group.Entities[i], new Destroy());
                 }
             }
         }
